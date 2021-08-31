@@ -20,13 +20,7 @@
 
 <br>
 
-Shark Attacks – <i>data cleaning and manipulation with Pandas</i> – is my first project at Ironhack's Data Analytics Bootcamp (2021). The given dataset was extremly <i>messy and dirty</i>, so the main pythonic challange here was to have it cleand and usable. But before start transforming <i>beast in beauty</i> I was also challanged to develop a story based on a <i>business question</i> to answer. So, <i>Where in Australia to build a 'shark-free' family resort?</i> sounds familiar to my background in the construction industry and also a huge coding job: lot's to clean, search for supporting datasets and, of course, fun! 👨🏻‍💻
-
-### Deliverable files in this repository
-
-* Cleaned final dataset (./assets): `shark_au_df.csv`
-* Data analysis in a Jupyter notebook: `project_01_shark_attack.ipynb`
-* Formal presentation – Storytelling with data –, done in `HTML5` `CSS3` `JavaScript` : [check it here](https://fealt.github.io/shark-attacks-australia/)
+Shark Attacks – <i>data cleaning and manipulation with Pandas</i> – is my first project at Ironhack's Data Analytics Bootcamp (2021). The given dataset was extremly <i>messy and dirty</i>, so the main <i>pythonic</i> challange here was to have it clean and usable. But before starting to transform <i>beast into beauty</i> I was also challanged to develop a story based on a <i>business question</i> to answer. So – <i>Where in Australia to build a 'shark-free' family resort?</i> – sounds familiar to my background in the construction industry and is also a huge coding job: lots to clean, search for supporting datasets and, of course, fun! 👨🏻‍💻
 
 <br>
 
@@ -42,7 +36,8 @@ Shark Attacks – <i>data cleaning and manipulation with Pandas</i> – is my fi
 ### Client
 ```
 
-▫️ Shark-free Hotels & Resorts is a 'worldwide to be' hotel chain, since it's missing a branch in Australia.
+▫️ Shark-free Hotels & Resorts is a 'worldwide to be' hotel chain, since it's missing a branch
+  in Australia.
 
 ▫️ To date, all of its other houses are built in "safe" beaches – with no sight of sharks.
 
@@ -53,18 +48,26 @@ Shark Attacks – <i>data cleaning and manipulation with Pandas</i> – is my fi
 ### Cleaning & Co.
 ```
 
-▫️ Cleaned columns include `year` `type (provoked/unprovoked)` `fatal (y/n)` `area` `location` `sex` `age`.
+▫️ Cleaned columns include:
+  `year`
+  `type (provoked/unprovoked)`
+  `fatal (y/n)`
+  `area`
+  `location`
+  `sex`
+  `age`
 
-▫️ Developed a cleaning strategy for column `location` to also get coordinates, applying `GeoPy`.
+▫️ Developed a cleaning strategy for column `location` to get coordinates, applying `GeoPy`.
 
-▫️ To support the analysis I used 3 extra datasets and made 2 further ones based on lists of websites:
+▫️ To support the analysis, 5 extra datasets were used:
   1. Hotels in Australia, key findings:
     - Top 3 States by number of hotels are New South Wales, Queensland and Victoria.
-    - Accomodation rate mean for Australia by 65% and almost all states follow the mean.
+    - Accomodation rate mean for Australia around 65% and almost all states follow the mean.
   2. Short-term visitors in Australia, key findings:
-    - Australia can celebrate an incredible growth in short visitors over the last 40 years.
+    - Australia celebrates an incredible growth in short-term visitors over the last 40 years.
     - Over 200% rise from 1990 to 1997 and almost 170% rise from 2010 to 2018.
-    - Turist growth in relation to total shark attacks, refer to the presentation for more details.
+    - Turist growth in relation to total shark attacks, refer to the Jupyter notebook file for
+      more details.
   3. Australia cities database.
   4. Top 20 beaches in Australia (self-made dataset).  
   5. List of beaches in Australia (self-made dataset).
@@ -81,7 +84,7 @@ Shark Attacks – <i>data cleaning and manipulation with Pandas</i> – is my fi
 
 ▫️ 22% end up deadly.
 
-▫️ Almost 90% attacked individuals are male.
+▫️ Almost 90% of attacked individuals are male.
 
 <br>
 
@@ -91,7 +94,7 @@ Shark Attacks – <i>data cleaning and manipulation with Pandas</i> – is my fi
 
 ### Analysis, Australia
 
-▫️ In almost 85% of all fatalities, it was possible to locate the coordinates.
+▫️ In 85% of all fatalities, it was possible to locate the coordinates.
 
 ▫️ Number of tourists exploded in the last 40 years: over 200% rise from 1990 to 1997 and almost 170% from 2010 to 2018.
 
@@ -112,15 +115,23 @@ Shark Attacks – <i>data cleaning and manipulation with Pandas</i> – is my fi
 ### Conclusion
 ```
 
-▫️ Despite a full coast of registered shark attacks there was an area `free` of in Victoria State.
+▫️ Despite a full coast with shark attacks, there is a `shark free` area in Victoria State.
 
 ▫️ It's named `Lake Tyers Beach` and is also a top 20 beach in Australia! Ranked #16.
 
-▫️ Therefore a `safe` place for `Shark-free Hotels & Resorts` to finally start hosting in Australia.
+▫️ Therefore a `safe` place for `Shark-free Hotels & Resorts` to start hosting in Australia.
 
 ```
 
 <br>
+
+<br>
+
+### Deliverable files in this repository
+
+* Cleaned final dataset (./assets): `shark_au_df.csv`
+* Data analysis in a Jupyter notebook: `project_01_shark_attack.ipynb`
+* Formal presentation – Storytelling with data –, done in `HTML5` `CSS3` `JavaScript` : [check it here](https://fealt.github.io/shark-attacks-australia/)
 
 <br>
 
@@ -141,6 +152,7 @@ Shark Attacks – <i>data cleaning and manipulation with Pandas</i> – is my fi
    - List of beaches in Australia: [Wikipedia](https://en.wikipedia.org/wiki/List_of_beaches_in_Australia).
    - Brad Farmer's 101 Best Australian Beaches: [Traveller](https://www.traveller.com.au/brad-farmers-101-best-australian-beaches-australias-top-101-beaches-to-visit-in-2020-revealed-h1kbwi).
 
+<br>
 
 ### Tech
 
